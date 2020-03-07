@@ -7,10 +7,12 @@
 //
 
 #import "OCTestVC.h"
+#import "ZJTimerProxy.h"
 #import "SwiftMore-Swift.h"
 @interface OCTestVC ()<UITableViewDelegate, UITableViewDataSource>
 @property (weak, nonatomic) IBOutlet UITableView *myTable;
 @property(nonatomic, copy) NSArray *titleArr ;
+@property (nonatomic, strong) NSTimer *timer;
 @end
 
 @implementation OCTestVC
