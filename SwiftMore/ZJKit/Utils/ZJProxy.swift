@@ -14,8 +14,6 @@ class ZJProxy: NSObject {
         let proxy = ZJProxy.init()
         proxy.target = target
         return proxy
-        
-        
     }
     
     override func forwardingTarget(for aSelector: Selector!) -> Any? {
