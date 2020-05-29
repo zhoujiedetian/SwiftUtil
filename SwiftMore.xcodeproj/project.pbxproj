@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		04B7CAE9CEF823B23B6C0926 /* libPods-SwiftMore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B543F98E18EAF86AAF89CC3A /* libPods-SwiftMore.a */; };
 		E210008B22D9B9B5004BE975 /* ZJSinglePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210008A22D9B9B5004BE975 /* ZJSinglePicker.swift */; };
-		E21E905C2402826000344A81 /* ZJTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21E905A2402826000344A81 /* ZJTestVC.swift */; };
-		E21E905D2402826000344A81 /* ZJTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E21E905B2402826000344A81 /* ZJTestVC.xib */; };
 		E231890022681FDD00511A08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23188FF22681FDD00511A08 /* AppDelegate.swift */; };
 		E231890222681FDD00511A08 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E231890122681FDD00511A08 /* ViewController.swift */; };
 		E231890522681FDD00511A08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E231890322681FDD00511A08 /* Main.storyboard */; };
@@ -19,11 +17,8 @@
 		E231891522681FDF00511A08 /* SwiftMoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E231891422681FDF00511A08 /* SwiftMoreTests.swift */; };
 		E231892022681FDF00511A08 /* SwiftMoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E231891F22681FDF00511A08 /* SwiftMoreUITests.swift */; };
 		E231892F22686B2000511A08 /* ZJAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E231892E22686B2000511A08 /* ZJAlert.swift */; };
-		E24A278724139FD600B1E0F1 /* ZJTimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = E24A278624139FD600B1E0F1 /* ZJTimerProxy.m */; };
 		E2520262242A44F1005F58E8 /* UIDevice+ZJExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2520261242A44F1005F58E8 /* UIDevice+ZJExtension.swift */; };
 		E25FE762235C0F2600BE489A /* UIView+ZJExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25FE761235C0F2600BE489A /* UIView+ZJExtension.swift */; };
-		E267E0D922C5C08400819FC0 /* OCTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E267E0D722C5C08400819FC0 /* OCTestVC.m */; };
-		E267E0DA22C5C08400819FC0 /* OCTestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E267E0D822C5C08400819FC0 /* OCTestVC.xib */; };
 		E26E1B3022CA41B5004DBB43 /* ZJRootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26E1B2F22CA41B5004DBB43 /* ZJRootVC.swift */; };
 		E2806F8B229D61EA0099C582 /* ZJBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2806F8A229D61EA0099C582 /* ZJBaseVC.swift */; };
 		E2806FB7229E78D10099C582 /* ZJNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2806FB6229E78D10099C582 /* ZJNavigationController.swift */; };
@@ -42,7 +37,6 @@
 		E2B5E49923F908E40006648E /* ZJSearchUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B5E49823F908E40006648E /* ZJSearchUtil.swift */; };
 		E2BDA1D5228A940C0042B58F /* UIColor+ZJExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2BDA1D4228A940C0042B58F /* UIColor+ZJExtension.swift */; };
 		E2C3ECDC2413AA97007D8B3C /* ZJProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2C3ECDB2413AA97007D8B3C /* ZJProxy.swift */; };
-		E2CAC7AB241633BA00BC6287 /* ZJTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = E2CAC7AA241633BA00BC6287 /* ZJTimer.m */; };
 		E2DC9195227157BA00BB7325 /* ZJConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DC9194227157BA00BB7325 /* ZJConstant.swift */; };
 		E2DC91972271829F00BB7325 /* ZJTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DC91962271829F00BB7325 /* ZJTip.swift */; };
 		E2E20A2E23975B2E0068795D /* NSTimer+ZJExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E20A2D23975B2E0068795D /* NSTimer+ZJExtension.swift */; };
@@ -73,8 +67,6 @@
 		B543F98E18EAF86AAF89CC3A /* libPods-SwiftMore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftMore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC4544D3F01E1157A2DD93D /* Pods-SwiftMore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMore/Pods-SwiftMore.debug.xcconfig"; sourceTree = "<group>"; };
 		E210008A22D9B9B5004BE975 /* ZJSinglePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZJSinglePicker.swift; sourceTree = "<group>"; };
-		E21E905A2402826000344A81 /* ZJTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJTestVC.swift; sourceTree = "<group>"; };
-		E21E905B2402826000344A81 /* ZJTestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ZJTestVC.xib; sourceTree = "<group>"; };
 		E23188FC22681FDD00511A08 /* SwiftMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E23188FF22681FDD00511A08 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E231890122681FDD00511A08 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -89,14 +81,8 @@
 		E231891F22681FDF00511A08 /* SwiftMoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftMoreUITests.swift; sourceTree = "<group>"; };
 		E231892122681FDF00511A08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E231892E22686B2000511A08 /* ZJAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJAlert.swift; sourceTree = "<group>"; };
-		E24A278524139FD600B1E0F1 /* ZJTimerProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZJTimerProxy.h; sourceTree = "<group>"; };
-		E24A278624139FD600B1E0F1 /* ZJTimerProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJTimerProxy.m; sourceTree = "<group>"; };
 		E2520261242A44F1005F58E8 /* UIDevice+ZJExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+ZJExtension.swift"; sourceTree = "<group>"; };
 		E25FE761235C0F2600BE489A /* UIView+ZJExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+ZJExtension.swift"; sourceTree = "<group>"; };
-		E267E0D522C5C08300819FC0 /* SwiftMore-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiftMore-Bridging-Header.h"; sourceTree = "<group>"; };
-		E267E0D622C5C08400819FC0 /* OCTestVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCTestVC.h; sourceTree = "<group>"; };
-		E267E0D722C5C08400819FC0 /* OCTestVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCTestVC.m; sourceTree = "<group>"; };
-		E267E0D822C5C08400819FC0 /* OCTestVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OCTestVC.xib; sourceTree = "<group>"; };
 		E26E1B2F22CA41B5004DBB43 /* ZJRootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJRootVC.swift; sourceTree = "<group>"; };
 		E2806F8A229D61EA0099C582 /* ZJBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJBaseVC.swift; sourceTree = "<group>"; };
 		E2806FB6229E78D10099C582 /* ZJNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJNavigationController.swift; sourceTree = "<group>"; };
@@ -115,8 +101,6 @@
 		E2B5E49823F908E40006648E /* ZJSearchUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJSearchUtil.swift; sourceTree = "<group>"; };
 		E2BDA1D4228A940C0042B58F /* UIColor+ZJExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+ZJExtension.swift"; sourceTree = "<group>"; };
 		E2C3ECDB2413AA97007D8B3C /* ZJProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJProxy.swift; sourceTree = "<group>"; };
-		E2CAC7A9241633BA00BC6287 /* ZJTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJTimer.h; sourceTree = "<group>"; };
-		E2CAC7AA241633BA00BC6287 /* ZJTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJTimer.m; sourceTree = "<group>"; };
 		E2DC9194227157BA00BB7325 /* ZJConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJConstant.swift; sourceTree = "<group>"; };
 		E2DC91962271829F00BB7325 /* ZJTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJTip.swift; sourceTree = "<group>"; };
 		E2E20A2D23975B2E0068795D /* NSTimer+ZJExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSTimer+ZJExtension.swift"; sourceTree = "<group>"; };
@@ -176,21 +160,14 @@
 		E23188FE22681FDD00511A08 /* SwiftMore */ = {
 			isa = PBXGroup;
 			children = (
-				E24A278424139FBC00B1E0F1 /* OCUtil */,
 				E231892D22686A6E00511A08 /* ZJKit */,
 				E23188FF22681FDD00511A08 /* AppDelegate.swift */,
 				E231890122681FDD00511A08 /* ViewController.swift */,
-				E21E905A2402826000344A81 /* ZJTestVC.swift */,
-				E21E905B2402826000344A81 /* ZJTestVC.xib */,
-				E267E0D622C5C08400819FC0 /* OCTestVC.h */,
-				E267E0D722C5C08400819FC0 /* OCTestVC.m */,
-				E267E0D822C5C08400819FC0 /* OCTestVC.xib */,
 				E231890322681FDD00511A08 /* Main.storyboard */,
 				E231890622681FDF00511A08 /* Assets.xcassets */,
 				E231890822681FDF00511A08 /* LaunchScreen.storyboard */,
 				E2B5E49523F905060006648E /* SwiftMore.xcdatamodeld */,
 				E231890B22681FDF00511A08 /* Info.plist */,
-				E267E0D522C5C08300819FC0 /* SwiftMore-Bridging-Header.h */,
 			);
 			path = SwiftMore;
 			sourceTree = "<group>";
@@ -234,17 +211,6 @@
 				E26E1B2E22CA4175004DBB43 /* ZJRootAndNav */,
 			);
 			path = UI;
-			sourceTree = "<group>";
-		};
-		E24A278424139FBC00B1E0F1 /* OCUtil */ = {
-			isa = PBXGroup;
-			children = (
-				E2CAC7A9241633BA00BC6287 /* ZJTimer.h */,
-				E2CAC7AA241633BA00BC6287 /* ZJTimer.m */,
-				E24A278524139FD600B1E0F1 /* ZJTimerProxy.h */,
-				E24A278624139FD600B1E0F1 /* ZJTimerProxy.m */,
-			);
-			path = OCUtil;
 			sourceTree = "<group>";
 		};
 		E26E1B2E22CA4175004DBB43 /* ZJRootAndNav */ = {
@@ -304,8 +270,8 @@
 		E2B5E49023F9047E0006648E /* BizNet */ = {
 			isa = PBXGroup;
 			children = (
-				E2B5E49123F9047E0006648E /* BizNetManager.swift */,
 				E2B5E49223F9047E0006648E /* BizNetConstant.swift */,
+				E2B5E49123F9047E0006648E /* BizNetManager.swift */,
 			);
 			path = BizNet;
 			sourceTree = "<group>";
@@ -451,9 +417,7 @@
 				E2FFD0F922C25167007136C6 /* Icon_Back@3x.png in Resources */,
 				E231890522681FDD00511A08 /* Main.storyboard in Resources */,
 				E2B5E48F23F9043A0006648E /* Area_Json.json in Resources */,
-				E267E0DA22C5C08400819FC0 /* OCTestVC.xib in Resources */,
 				E2B5E48B23F903D80006648E /* ZJPhotoCell.xib in Resources */,
-				E21E905D2402826000344A81 /* ZJTestVC.xib in Resources */,
 				E2B5E48823F903D80006648E /* ZJChoosePhotoVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,7 +468,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E21E905C2402826000344A81 /* ZJTestVC.swift in Sources */,
 				E2B5E48D23F9041B0006648E /* ZJAreaPicker.swift in Sources */,
 				E2A2600222BA758500F72936 /* ZJPresentStyle.swift in Sources */,
 				E2B5E49323F9047E0006648E /* BizNetManager.swift in Sources */,
@@ -512,11 +475,9 @@
 				E2E20A2E23975B2E0068795D /* NSTimer+ZJExtension.swift in Sources */,
 				E2B5E48A23F903D80006648E /* ZJPhotoCell.swift in Sources */,
 				E2B5E48923F903D80006648E /* ZJChoosePhotoVC.swift in Sources */,
-				E267E0D922C5C08400819FC0 /* OCTestVC.m in Sources */,
 				E2B5E49423F9047E0006648E /* BizNetConstant.swift in Sources */,
 				E26E1B3022CA41B5004DBB43 /* ZJRootVC.swift in Sources */,
 				E2806F8B229D61EA0099C582 /* ZJBaseVC.swift in Sources */,
-				E24A278724139FD600B1E0F1 /* ZJTimerProxy.m in Sources */,
 				E2BDA1D5228A940C0042B58F /* UIColor+ZJExtension.swift in Sources */,
 				E2806FB7229E78D10099C582 /* ZJNavigationController.swift in Sources */,
 				E2B5E49923F908E40006648E /* ZJSearchUtil.swift in Sources */,
@@ -531,7 +492,6 @@
 				E231890022681FDD00511A08 /* AppDelegate.swift in Sources */,
 				E2A2600422BA779500F72936 /* ZJDatePicker.swift in Sources */,
 				E25FE762235C0F2600BE489A /* UIView+ZJExtension.swift in Sources */,
-				E2CAC7AB241633BA00BC6287 /* ZJTimer.m in Sources */,
 				E2DC9195227157BA00BB7325 /* ZJConstant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -717,12 +677,12 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bozhi.SwiftMore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayAllen.SwiftMore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftMore/SwiftMore-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -740,11 +700,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bozhi.SwiftMore;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jayAllen.SwiftMore;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "SwiftMore/SwiftMore-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

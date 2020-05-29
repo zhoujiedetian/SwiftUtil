@@ -6,7 +6,7 @@
 //  Copyright © 2020 精灵要跳舞. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension UIDevice {
     class func isJailBreak() -> Bool {

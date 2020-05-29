@@ -28,7 +28,7 @@ class BizNetManager: NSObject {
         }
         let endIndex = paramsStr.index(paramsStr.endIndex, offsetBy: -1)
         let subStr = paramsStr.prefix(upTo:endIndex)
-        let urlStr = KBiz_Url_Host + url + subStr
+        let urlStr = kZJ_URL_Host + url + subStr
         
         let window : UIWindow = (UIApplication.shared.delegate?.window!!)!
         MBProgressHUD.showAdded(to: window, animated: true)
@@ -66,7 +66,7 @@ class BizNetManager: NSObject {
         }
         let endIndex = paramsStr.index(paramsStr.endIndex, offsetBy: -1)
         let subStr = paramsStr.prefix(upTo:endIndex)
-        let urlStr = KBiz_Url_Host + url + subStr
+        let urlStr = kZJ_URL_Host + url + subStr
         
         let window : UIWindow = (UIApplication.shared.delegate?.window!!)!
         MBProgressHUD.showAdded(to: window, animated: true)

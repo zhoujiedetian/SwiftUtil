@@ -19,9 +19,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
         let rootVC = ZJRootVC()
         let homeVC = ViewController()
-        let mineVC = OCTestVC()
         rootVC.addChildNav(vc: homeVC, normalImg: UIImage.init(named: "tabbar_homeNo")!, selectImg: UIImage.init(named: "tabbar_homeSe")!, title: "首页")
-        rootVC.addChildNav(vc: mineVC, normalImg: UIImage.init(named: "tabbar_mainNo")!, selectImg: UIImage.init(named: "tabbar_mainSe")!, title: "我的")
         self.window?.rootViewController = rootVC
         self.window?.makeKeyAndVisible()
         return true

@@ -16,12 +16,10 @@ class ViewController: ZJBaseVC {
         self.view.backgroundColor = UIColor.white
         self.title = "首页"
         self.setRightBtn(withTitle: "这是啥", EventResponse: #selector(clickRight))
-        
-        _ = UIDevice.isJailBreak()
     }
     
     @objc func clickRight() {
-        navigationController?.pushViewController(ZJTestVC(), animated: true)
+        
     }
     
     override func router(withEventName eventName: String, dataInfo: NSDictionary) {
