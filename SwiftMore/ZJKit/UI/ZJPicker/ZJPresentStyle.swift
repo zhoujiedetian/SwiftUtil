@@ -20,7 +20,7 @@ class ZJPresentStyle: UIPresentationController {
     }()
     
     override var frameOfPresentedViewInContainerView: CGRect {
-        return CGRect(x: 0, y: KScreenHeight - 300, width: KScreenWidth, height: 300)
+        return CGRect(x: 0, y: kScreenHeight - 300, width: kScreenWidth, height: 300)
     }
     
     override init(presentedViewController: UIViewController, presenting presentingViewController: UIViewController?) {

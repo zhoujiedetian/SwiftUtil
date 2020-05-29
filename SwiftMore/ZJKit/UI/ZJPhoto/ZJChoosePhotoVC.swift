@@ -68,7 +68,7 @@ extension ZJChoosePhotoVC : UICollectionViewDelegate, UICollectionViewDataSource
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        let totalWidth = KScreenWidth - 2 * 2 - CGFloat(colum * 2)
+        let totalWidth = kScreenWidth - 2 * 2 - CGFloat(colum * 2)
         let width = totalWidth / CGFloat(colum)
         return CGSize.init(width: width, height: width)
     }

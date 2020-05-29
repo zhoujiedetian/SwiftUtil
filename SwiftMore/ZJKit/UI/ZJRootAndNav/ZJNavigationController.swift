@@ -33,7 +33,7 @@ extension ZJNavigationController {
         bar.isTranslucent = false
         bar.tintColor = UIColor.white
         //导航栏背景色
-        bar.barTintColor = KNav_ThemeColor
+        bar.barTintColor = kNav_ThemeColor
         //导航栏标题属性
         bar.titleTextAttributes = [.foregroundColor : UIColor.white,                         .font :                            UIFont.boldSystemFont(ofSize: 18)]
         //去除导航栏下方黑线
@@ -49,7 +49,7 @@ extension ZJNavigationController {
             make.left.equalTo(0)
             make.bottom.equalTo(0)
             make.width.equalTo(40)
-            make.height.equalTo(KNavigationHeight)
+            make.height.equalTo(kNavigationHeight)
         }
     }
     

@@ -26,7 +26,7 @@ class ZJDatePicker: UIViewController {
     lazy var cancelBtn : UIButton = {
         let btn = UIButton.init(type: .custom)
         btn.setTitle("取消", for: .normal)
-        btn.setTitleColor(KNav_ThemeColor, for: .normal)
+        btn.setTitleColor(kNav_ThemeColor, for: .normal)
         btn.titleLabel?.font = UIFont.systemFont(ofSize: 15)
         btn.addTarget(self, action: #selector(clickCancel), for: .touchUpInside)
         return btn

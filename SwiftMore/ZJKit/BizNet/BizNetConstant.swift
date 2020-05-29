@@ -8,27 +8,27 @@
 
 import Foundation
 
-private enum environmentType {
-    case environmentTypeIntraNet    //内网
-    case environmentTypeOuterNet    //外网
-    case environmentTypeTestingNet  //测试
-    case environmentTypeFormalNet   //正式
+private enum EnvironmentType {
+    case EnvironmentTypeIntraNet    //内网
+    case EnvironmentTypeOuterNet    //外网
+    case EnvironmentTypeTestingNet  //测试
+    case EnvironmentTypeFormalNet   //正式
 }
 
 #if DEBUG
 /// 环境变量
-private var environmentArgu = environmentType.environmentTypeTestingNet
+private var environmentArgu = EnvironmentType.EnvironmentTypeTestingNet
 
 var kZJ_URL_Host : String {
     get {
         switch environmentArgu {
-            case .environmentTypeIntraNet:
+            case .EnvironmentTypeIntraNet:
                 return "http://172.21.41.6:17223/intra"
-            case .environmentTypeOuterNet:
+            case .EnvironmentTypeOuterNet:
                 return "http://172.21.41.6:17223/outer"
-            case .environmentTypeTestingNet:
+            case .EnvironmentTypeTestingNet:
                 return "http://172.21.41.6:17223/testing"
-            case .environmentTypeFormalNet:
+            case .EnvironmentTypeFormalNet:
                 return "http://172.21.41.6:17223/formal"
         }
     }

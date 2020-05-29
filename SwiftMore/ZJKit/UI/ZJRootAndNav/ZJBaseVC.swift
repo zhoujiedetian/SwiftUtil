@@ -11,7 +11,7 @@ import UIKit
 class ZJBaseVC: UIViewController {
     
 //    lazy var zj_NavigationBar : UINavigationBar = {
-//        let navBar = UINavigationBar.init(frame: CGRect.init(x: 0, y: 0, width: KScreenWidth, height: statusAndNavHeight))
+//        let navBar = UINavigationBar.init(frame: CGRect.init(x: 0, y: 0, width: kScreenWidth, height: statusAndNavHeight))
 //        navBar.backgroundColor = UIColor.random()
 //        return navBar
 //    }()

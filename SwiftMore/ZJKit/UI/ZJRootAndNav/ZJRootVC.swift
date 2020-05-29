@@ -20,7 +20,7 @@ extension ZJRootVC {
     
     func setUpTabbar() {
         //顶部添加一条自定义分割线
-        let lineRect = CGRect.init(x: 0, y: 0, width: KScreenWidth, height: 0.5)
+        let lineRect = CGRect.init(x: 0, y: 0, width: kScreenWidth, height: 0.5)
         UIGraphicsBeginImageContext(lineRect.size)
         let context = UIGraphicsGetCurrentContext()!
         context.setFillColor(UIColor.rgbFromHex(rgb: 0xf2f2f2).cgColor)
@@ -33,9 +33,9 @@ extension ZJRootVC {
         //未选择状态下title属性
     UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font : UIFont.systemFont(ofSize: 15), NSAttributedString.Key.foregroundColor : UIColor.gray], for: .normal)
         //选择状态下title属性
-    UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font : UIFont.systemFont(ofSize: 15), NSAttributedString.Key.foregroundColor : KNav_ThemeColor], for: .selected)
+    UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font : UIFont.systemFont(ofSize: 15), NSAttributedString.Key.foregroundColor : kNav_ThemeColor], for: .selected)
         //item图片显示颜色，不设置默认为蓝色
-        self.tabBar.tintColor = KNav_ThemeColor
+        self.tabBar.tintColor = kNav_ThemeColor
     }
     
     func addChildNav(vc : UIViewController, normalImg : UIImage, selectImg : UIImage, title : String) {
