@@ -22,6 +22,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         rootVC.addChildNav(vc: homeVC, normalImg: UIImage.init(named: "tabbar_homeNo")!, selectImg: UIImage.init(named: "tabbar_homeSe")!, title: "首页")
         self.window?.rootViewController = rootVC
         self.window?.makeKeyAndVisible()
+        
+        UIApplication.loadImplement()
         return true
     }
 
@@ -70,5 +72,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
 
+}
+
+extension UIApplication {
+    private static let runOnce: Void = {
+        NothingToSeeHere.harmlessFunction()
+    }()
+
+    static func loadImplement() {
+        UIApplication.runOnce
+    }
 }
 

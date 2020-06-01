@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		04B7CAE9CEF823B23B6C0926 /* libPods-SwiftMore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B543F98E18EAF86AAF89CC3A /* libPods-SwiftMore.a */; };
+		4A35AB8B248499FD005BF0D1 /* ZJLoadImplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A35AB8A248499FD005BF0D1 /* ZJLoadImplement.swift */; };
 		4ADF5C0924810176006C67EE /* ZJTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF5C0824810176006C67EE /* ZJTimer.swift */; };
 		E210008B22D9B9B5004BE975 /* ZJSinglePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210008A22D9B9B5004BE975 /* ZJSinglePicker.swift */; };
 		E231890022681FDD00511A08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23188FF22681FDD00511A08 /* AppDelegate.swift */; };
@@ -64,6 +65,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A35AB8A248499FD005BF0D1 /* ZJLoadImplement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJLoadImplement.swift; sourceTree = "<group>"; };
 		4ADF5C0824810176006C67EE /* ZJTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJTimer.swift; sourceTree = "<group>"; };
 		AA8EB782B6DAB1B7C948CE1A /* Pods-SwiftMore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMore.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMore/Pods-SwiftMore.release.xcconfig"; sourceTree = "<group>"; };
 		B543F98E18EAF86AAF89CC3A /* libPods-SwiftMore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftMore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -233,6 +235,7 @@
 				E2DC91962271829F00BB7325 /* ZJTip.swift */,
 				E2B5E49823F908E40006648E /* ZJSearchUtil.swift */,
 				E2C3ECDB2413AA97007D8B3C /* ZJProxy.swift */,
+				4A35AB8A248499FD005BF0D1 /* ZJLoadImplement.swift */,
 				4ADF5C0824810176006C67EE /* ZJTimer.swift */,
 			);
 			path = Utils;
@@ -488,6 +491,7 @@
 				E2B5E48223F9034C0006648E /* ZJCoreDataUtil.swift in Sources */,
 				E231890222681FDD00511A08 /* ViewController.swift in Sources */,
 				E2FB4B332283D79B00A7E3C1 /* UIResponder+ZJExtension.swift in Sources */,
+				4A35AB8B248499FD005BF0D1 /* ZJLoadImplement.swift in Sources */,
 				E2DC91972271829F00BB7325 /* ZJTip.swift in Sources */,
 				E231892F22686B2000511A08 /* ZJAlert.swift in Sources */,
 				E210008B22D9B9B5004BE975 /* ZJSinglePicker.swift in Sources */,

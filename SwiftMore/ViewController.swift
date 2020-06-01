@@ -16,9 +16,6 @@ class ViewController: ZJBaseVC {
         self.view.backgroundColor = UIColor.white
         self.title = "首页"
         self.setRightBtn(withTitle: "这是啥", EventResponse: #selector(clickRight))
-        
-        print(kStatusBarHeight)
-        print(isIphoneX)
     }
     
     @objc func clickRight() {
