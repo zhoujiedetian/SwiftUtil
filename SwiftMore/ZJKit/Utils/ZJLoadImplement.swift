@@ -12,6 +12,8 @@ protocol SelfAware: class {
     static func awake()
 }
 
+
+/// 用于替换load与initialnize
 class NothingToSeeHere {
 
     static func harmlessFunction() {

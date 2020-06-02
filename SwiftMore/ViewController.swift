@@ -16,6 +16,16 @@ class ViewController: ZJBaseVC {
         self.view.backgroundColor = UIColor.white
         self.title = "首页"
         self.setRightBtn(withTitle: "这是啥", EventResponse: #selector(clickRight))
+        
+        var count = 0;
+        let timerID = ZJTimer.executeTask(startTime: 5, interval: 1, repeats: true, async: true) {
+            count += 1
+            print("\(count)")
+        }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 15) {
+            ZJTimer.invalidateTimer(timeId: timerID!)
+        }
     }
     
     @objc func clickRight() {
