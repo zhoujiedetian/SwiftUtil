@@ -212,7 +212,7 @@ extension ZJAreaPicker {
     }
     
     @objc func clickSure() {
-        if resultBlock != nil {
+        if let newBlock = resultBlock {
             
         }
         self.dismiss(animated: true, completion: nil)

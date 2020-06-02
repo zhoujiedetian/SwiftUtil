@@ -264,14 +264,14 @@ extension ZJDatePicker {
     }
     
     @objc func clickSure() {
-        if resultBlock != nil {
+        if let newBlock = resultBlock {
             switch pickerType {
             case .YEAR:
-                resultBlock!(currentYear,0,0)
+                newBlock(currentYear,0,0)
             case .YEARMONTH:
-                resultBlock!(currentYear,currentMonth,0)
+                newBlock(currentYear,currentMonth,0)
             case .YEARMONTHDAY:
-                resultBlock!(currentYear,currentMonth,currentDay)
+                newBlock(currentYear,currentMonth,currentDay)
             }
         }
         self.dismiss(animated: true, completion: nil)

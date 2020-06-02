@@ -20,7 +20,7 @@ class ZJTimer: NSObject {
     ///   - repeats: 是否重复
     ///   - async: 同步或异步
     ///   - task: 执行task
-    /// - Returns: timerId
+    /// - Returns: timerID
     class func executeTask(startTime: TimeInterval,
                      interval: TimeInterval,
                      repeats: Bool,
@@ -45,6 +45,8 @@ class ZJTimer: NSObject {
         return timeId
     }
     
+    /// 销毁一个timer
+    /// - Parameter timeId: timerID
     class func invalidateTimer(timeId: String) {
         if timeId.isEmpty {
            return

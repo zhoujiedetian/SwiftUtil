@@ -140,8 +140,8 @@ extension ZJSinglePicker {
     }
     
     @objc func clickSure() {
-        if resultBlock != nil && currentItem != nil{
-            resultBlock!(currentItem!["name"]!, currentItem!["id"]!)
+        if let newBlock = resultBlock, let newItem = currentItem {
+            newBlock(newItem["name"]!, newItem["id"]!)
         }
         self.dismiss(animated: true, completion: nil)
     }
