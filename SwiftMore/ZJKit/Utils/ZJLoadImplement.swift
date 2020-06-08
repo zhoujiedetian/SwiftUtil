@@ -7,7 +7,23 @@
 //
 
 import UIKit
+/*
+ 需要在AppDelegate中添加如下代码
+ 
+ extension UIApplication {
+     private static let runOnce: Void = {
+         NothingToSeeHere.harmlessFunction()
+     }()
 
+     static func loadImplement() {
+         UIApplication.runOnce
+     }
+ }
+ 
+ 并在 application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool 中调用 UIApplication.loadImplement()
+ 
+ 需要使用的类，继承SelfAware协议，并实现awake方法，在awake方法中实现自己需要的功能
+ */
 protocol SelfAware: class {
     static func awake()
 }

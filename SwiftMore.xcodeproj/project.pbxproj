@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04B7CAE9CEF823B23B6C0926 /* libPods-SwiftMore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B543F98E18EAF86AAF89CC3A /* libPods-SwiftMore.a */; };
 		4A35AB8B248499FD005BF0D1 /* ZJLoadImplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A35AB8A248499FD005BF0D1 /* ZJLoadImplement.swift */; };
+		4AA2D34824878FD200263050 /* String+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2D34724878FD200263050 /* String+Emoji.swift */; };
 		4ADF5C0924810176006C67EE /* ZJTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF5C0824810176006C67EE /* ZJTimer.swift */; };
 		E210008B22D9B9B5004BE975 /* ZJSinglePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E210008A22D9B9B5004BE975 /* ZJSinglePicker.swift */; };
 		E231890022681FDD00511A08 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23188FF22681FDD00511A08 /* AppDelegate.swift */; };
@@ -66,6 +67,7 @@
 
 /* Begin PBXFileReference section */
 		4A35AB8A248499FD005BF0D1 /* ZJLoadImplement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJLoadImplement.swift; sourceTree = "<group>"; };
+		4AA2D34724878FD200263050 /* String+Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Emoji.swift"; sourceTree = "<group>"; };
 		4ADF5C0824810176006C67EE /* ZJTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJTimer.swift; sourceTree = "<group>"; };
 		AA8EB782B6DAB1B7C948CE1A /* Pods-SwiftMore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftMore.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftMore/Pods-SwiftMore.release.xcconfig"; sourceTree = "<group>"; };
 		B543F98E18EAF86AAF89CC3A /* libPods-SwiftMore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwiftMore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -290,6 +292,7 @@
 				E25FE761235C0F2600BE489A /* UIView+ZJExtension.swift */,
 				E2E20A2D23975B2E0068795D /* NSTimer+ZJExtension.swift */,
 				E2520261242A44F1005F58E8 /* UIDevice+ZJExtension.swift */,
+				4AA2D34724878FD200263050 /* String+Emoji.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 				E2A2600422BA779500F72936 /* ZJDatePicker.swift in Sources */,
 				E25FE762235C0F2600BE489A /* UIView+ZJExtension.swift in Sources */,
 				E2DC9195227157BA00BB7325 /* ZJConstant.swift in Sources */,
+				4AA2D34824878FD200263050 /* String+Emoji.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

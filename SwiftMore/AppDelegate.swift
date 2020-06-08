@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow?
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        UIApplication.loadImplement()
+        
         self.window = UIWindow.init(frame: UIScreen.main.bounds)
         let rootVC = ZJRootVC()
         let homeVC = ViewController()
@@ -23,7 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window?.rootViewController = rootVC
         self.window?.makeKeyAndVisible()
         
-        UIApplication.loadImplement()
         return true
     }
 
