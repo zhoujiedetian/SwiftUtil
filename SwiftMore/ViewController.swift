@@ -19,7 +19,7 @@ class ViewController: ZJBaseVC {
     }
     
     @objc func clickRight() {
-        
+        print(ZJSort.quickSort(nums: [49, 38, 65, 97, 23, 22, 76, 1, 5, 8, 2, 0, -1, 22]))
     }
     
     override func router(withEventName eventName: String, dataInfo: NSDictionary) {
