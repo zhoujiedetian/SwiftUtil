@@ -16,6 +16,13 @@ class ViewController: ZJBaseVC {
         self.view.backgroundColor = UIColor.white
         self.title = "首页"
         self.setRightBtn(withTitle: "这是啥", EventResponse: #selector(clickRight))
+        
+        let tf = ZJNoThirdKeyBoardTF.init()
+        tf.backgroundColor = UIColor.red
+        tf.font = UIFont.systemFont(ofSize: 25)
+        tf.text = "123"
+        tf.frame = CGRect.init(x: 100, y: 100, width: 100, height: 100)
+        view.addSubview(tf)
     }
     
     @objc func clickRight() {
@@ -24,6 +31,10 @@ class ViewController: ZJBaseVC {
     
     override func router(withEventName eventName: String, dataInfo: NSDictionary) {
         print(dataInfo)
+    }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
     }
 }
 
