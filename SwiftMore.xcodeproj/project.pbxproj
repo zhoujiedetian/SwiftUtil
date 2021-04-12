@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		04B7CAE9CEF823B23B6C0926 /* libPods-SwiftMore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B543F98E18EAF86AAF89CC3A /* libPods-SwiftMore.a */; };
 		4A35AB8B248499FD005BF0D1 /* ZJLoadImplement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A35AB8A248499FD005BF0D1 /* ZJLoadImplement.swift */; };
+		4A69AB00262425E30005131B /* UITextField+ZJExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A69AAFF262425E30005131B /* UITextField+ZJExtension.swift */; };
 		4A737947254A954D00D35CA7 /* ZJNoThirdKeyBoardTF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A737946254A954D00D35CA7 /* ZJNoThirdKeyBoardTF.swift */; };
 		4AA2D34824878FD200263050 /* String+Emoji.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AA2D34724878FD200263050 /* String+Emoji.swift */; };
 		4ADF5C0924810176006C67EE /* ZJTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADF5C0824810176006C67EE /* ZJTimer.swift */; };
@@ -68,6 +69,7 @@
 
 /* Begin PBXFileReference section */
 		4A35AB8A248499FD005BF0D1 /* ZJLoadImplement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJLoadImplement.swift; sourceTree = "<group>"; };
+		4A69AAFF262425E30005131B /* UITextField+ZJExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+ZJExtension.swift"; sourceTree = "<group>"; };
 		4A737946254A954D00D35CA7 /* ZJNoThirdKeyBoardTF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJNoThirdKeyBoardTF.swift; sourceTree = "<group>"; };
 		4AA2D34724878FD200263050 /* String+Emoji.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Emoji.swift"; sourceTree = "<group>"; };
 		4ADF5C0824810176006C67EE /* ZJTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJTimer.swift; sourceTree = "<group>"; };
@@ -296,6 +298,7 @@
 				E2E20A2D23975B2E0068795D /* NSTimer+ZJExtension.swift */,
 				E2520261242A44F1005F58E8 /* UIDevice+ZJExtension.swift */,
 				4AA2D34724878FD200263050 /* String+Emoji.swift */,
+				4A69AAFF262425E30005131B /* UITextField+ZJExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -491,6 +494,7 @@
 				E2B5E49423F9047E0006648E /* BizNetConstant.swift in Sources */,
 				E26E1B3022CA41B5004DBB43 /* ZJRootVC.swift in Sources */,
 				E2806F8B229D61EA0099C582 /* ZJBaseVC.swift in Sources */,
+				4A69AB00262425E30005131B /* UITextField+ZJExtension.swift in Sources */,
 				E2BDA1D5228A940C0042B58F /* UIColor+ZJExtension.swift in Sources */,
 				4ADF5C0924810176006C67EE /* ZJTimer.swift in Sources */,
 				E2806FB7229E78D10099C582 /* ZJNavigationController.swift in Sources */,
